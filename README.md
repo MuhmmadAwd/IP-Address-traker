@@ -10,7 +10,10 @@ This is a simple web application that allows users to retrieve and display geolo
   </h6>
 </div>
 
-![screenshot](https://github.com/MuhmmadAwd/upload-gif/blob/main/watchmovies.gif?raw=true)
+![screenshot](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/ld4kxbjoxpqpjenak8w6.jpg)
+
+![screenshot](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/agtwcl5w9grwxc2wxq4s.jpg)
+
 
 
 ## Table of Contents
