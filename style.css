@@ -8,7 +8,6 @@ body{
     display: grid;
     grid-template-rows: minmax(40vh,auto) 1fr auto;
     min-height: 100vh;
-    background-color: antiquewhite;
 }
 
 header{
@@ -47,19 +46,25 @@ ul{
 }
 
 /* main */
+main{
+    display: grid;
+    grid-template-rows: 1fr;
+}
 
 .ip-info-list{
     max-width: 750px;
     width: 80%;
     margin: auto;
     margin-top: 1.5em;
-    transform: translate(0,-40%);
+    transform: translate(0,-50%);
     background-color: #fff;
     padding: 1em;
     display: flex;
     flex-wrap: wrap;
     text-align: left;
     border-radius: 15px;
+    grid-row: 1;
+    grid-column: 1;
 }
 .ip-info-item{
 padding-right: 2em;
@@ -78,15 +83,23 @@ font-weight: 500;
     font-weight: 700;
     padding-bottom: 1em;
 }
+/* map */
 
-@media(max-width:400px){
+#map {
+    height: 100%;
+    width: 100%;
+    grid-row: 1;
+    grid-column: 1;
+    z-index: -1;
+ }
+
+
+@media(max-width:450px){
     .search-wrapper input{
     font-size: 0.7rem;
     }
     .ip-info-list{
-        width: 80%;
         margin: auto;
-        transform: translate(0,-25%); 
     }
     .ip-info-item{
         min-width: 150px;
