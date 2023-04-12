@@ -1,7 +1,7 @@
 <div align="center">
 <h1 align="center"> IP Address Tracker</h1>
   <h3>
-    <a href="https://muhmmadawd.github.io/movie-watchList/index.html">
+    <a href="https://muhmmadawd.github.io/IP-Address-traker/">
       Live Demo
     </a>
   </h3>
